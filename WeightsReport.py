@@ -98,9 +98,9 @@ def weights_report(weights_folder_path,output_folder="weights_report",show=False
             base_fig_name = "linear"
             output_dict["linear"] = [high_freq_ratio,fig_2d,fig_3d,fig_fourier]
         if save:
-            fig_2d.savefig(output_folder+"/"+base_fig_name+"fig_2d.png")
-            fig_3d.savefig(output_folder+"/"+base_fig_name+"fig_3d.png")
-            fig_fourier.savefig(output_folder+"/"+base_fig_name+"fig_fourier.png")
+            fig_2d.savefig(output_folder+"/"+base_fig_name+"_fig_2d.png")
+            fig_3d.savefig(output_folder+"/"+base_fig_name+"_fig_3d.png")
+            fig_fourier.savefig(output_folder+"/"+base_fig_name+"_fig_fourier.png")
     return output_dict
 
 def save_weights_for_viz(cnn_weights,linear_weights,basename):
