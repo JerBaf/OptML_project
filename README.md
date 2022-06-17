@@ -20,7 +20,7 @@ If you encounter installation issues, we recommend you to use our notebooks on k
 
 ## Download Optimal models
 
-To reproduce our results you will need the optimal model checkpoint for every (optimizer,dataset) pair. The files are too large to fit on this repo, thus you can download them on this drive using your epfl login. If you encounter download or access issues, please contact me at jeremy.baffou@epfl.ch.
+To reproduce our results you will need the optimal model checkpoint for every (optimizer,dataset) pair. The files are too large to fit on this repo, thus you can download them on this drive : https://drive.google.com/drive/u/2/folders/1CjqCi79LDUko2meM6F5VNB78pg1Cz1N0 using your epfl login. If you encounter download or access issues, please contact me at jeremy.baffou@epfl.ch.
 
 ## Reproducibility
 
