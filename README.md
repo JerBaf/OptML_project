@@ -4,6 +4,8 @@ This repo contains all the code and figures that we produced during our project.
 
 ## Abstract
 
+In this project, we implemented 4 optimizers algorithms: SGD, SGD with momentum, RMSprop and ADAM and investigated the impact of them as well as its learning rate for solving a classification problem on multiple datasets: CIFAR10, CIFAR100, MNIST, FashionMNIST. We implemented the testing on the augmented data by Gaussian, flip and affine transforms in order to demonstrate the generalization capacities of optimizers. The behaviour analysis seem to show that momentum helps in generalization, which is also proven by the best accuracy reached by MSGD. 
+
 ## Requirements
 The following packages are needed in order to run our code without error:
 - python >= 3.8
